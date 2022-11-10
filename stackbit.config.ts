@@ -7,6 +7,16 @@ export default {
     buildCommand: 'npm run build',
     publishDir: 'out',
     nodeVersion: '14',
+    import: {
+        type: 'sanity',
+        contentFile: 'sanity-export/export.tar.gz',
+        sanityStudioPath: 'studio',
+        deployStudio: true,
+        deployGraphql: false,
+        projectIdEnvVar: 'SANITY_PROJECT_ID',
+        datasetEnvVar: 'SANITY_DATASET',
+        tokenEnvVar: 'SANITY_TOKEN'
+    },
     mapModels: ({ models, contentSourceType, contentSourceProjectId }) => {
         return models.map(model => {
             const isPageModel = ['page', 'landing'].includes(model.name);
