@@ -11,11 +11,7 @@
                         "title": "Next.js + Sourcebit = 🙌🏻",
                         "content": "Next.js new static site generation features combined with Sourcebit's data synchronization features makes a powerful combination.",
                         "image": {
-                            "$$type": "image",
-                            "asset": {
-                                "$$type": "reference",
-                                "$$ref": "image-d143780d371fb07356d7f0644c49ba2ffb0d7de7-700x350-png"
-                            }
+                          "$$ref": "image-d143780d371fb07356d7f0644c49ba2ffb0d7de7-700x350-png"
                         },
                         "actions": [
                             {
@@ -40,11 +36,7 @@
                             ],
                             "content": "When the site content is changed, instantly update the page in the browser.",
                             "image": {
-                              "$$type": "image",
-                              "asset": {
-                                "$$ref": "image-c5529b494f031c0747e38365e9361ecf01b3845a-510x620-png",
-                                "$$type": "reference"
-                              }
+                              "$$ref": "image-c5529b494f031c0747e38365e9361ecf01b3845a-510x620-png"
                             },
                             "title": "Live Updates on Content Change!"
                           },
@@ -59,11 +51,7 @@
                             ],
                             "content": "Instead of executing an API call every time a page is requested, a single API call is made when the development server starts, fetching the content and caching it for future use.",
                             "image": {
-                              "$$type": "image",
-                              "asset": {
-                                "$$ref": "image-26338d2ff2efa22ec781ee940299a44eed18785d-562x468-png",
-                                "$$type": "reference"
-                              }
+                              "$$ref": "image-26338d2ff2efa22ec781ee940299a44eed18785d-562x468-png"
                             },
                             "title": "Content Caching"
                           },
@@ -78,11 +66,7 @@
                             ],
                             "content": "The client is notified when content changes and changes are synced automatically.",
                             "image": {
-                              "$$type": "image",
-                              "asset": {
-                                "$$ref": "image-0e36ac6466d7ba2c50569e6acabb461b8f7b1d35-736x633-png",
-                                "$$type": "reference"
-                              }
+                              "$$ref": "image-0e36ac6466d7ba2c50569e6acabb461b8f7b1d35-736x633-png"
                             },
                             "title": "Observe Content Changes"
                           }
