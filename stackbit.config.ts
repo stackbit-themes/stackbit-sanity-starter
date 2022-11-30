@@ -15,7 +15,7 @@ export default {
         deployGraphql: false,
         projectIdEnvVar: 'SANITY_PROJECT_ID',
         datasetEnvVar: 'SANITY_DATASET',
-        tokenEnvVar: 'SANITY_TOKEN'
+        tokenEnvVar: 'SANITY_ACCESS_TOKEN'
     },
     mapModels: ({ models, contentSourceType, contentSourceProjectId }) => {
         return models.map(model => {
