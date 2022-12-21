@@ -22,5 +22,7 @@
     "react-dom": "^17.0.1",
     "sanity-plugin-markdown": "^1.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@sanity/cli": "^2.35.0"
+  }
 }
