@@ -4,7 +4,7 @@
     "name": "stackbit-nextjs-sanity-starter"
   },
   "api": {
-    "projectId": "__SANITY_PROJECT_ID__",
+    "projectId": "o2rz982y",
     "dataset": "production"
   },
   "plugins": [
@@ -18,9 +18,7 @@
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
