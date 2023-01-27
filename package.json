@@ -8,7 +8,7 @@
     "fetch": "sourcebit fetch",
     "build": "next build && next export",
     "start": "next start",
-    "create-sanity-project": "node ./sanity-export/create-project.js",
+    "create-project": "node ./sanity-export/create-project.js",
     "import": "node ./sanity-export/import.js"
   },
   "dependencies": {
