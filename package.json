@@ -12,9 +12,9 @@
     "import": "node ./sanity-export/import.js"
   },
   "dependencies": {
+    "@stackbit/types": "^0.1.9",
     "babel-runtime": "^6.26.0",
     "classnames": "^2.2.6",
-    "experimental-next-stackbit": "^0.0.2",
     "fs-extra": "^9.1.0",
     "lodash": "^4.17.21",
     "marked": "^2.0.0",
@@ -36,7 +36,7 @@
     "@sanity/export": "^2.2.6",
     "@sanity/import": "^2.2.6",
     "@stackbit/annotations": "^0.1.1",
-    "@stackbit/cms-sanity": "^0.0.51",
+    "@stackbit/cms-sanity": "^0.0.52",
     "configstore": "^5.0.1"
   }
 }
