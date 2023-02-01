@@ -33,7 +33,7 @@
     "@sanity/export": "^2.2.6",
     "@sanity/import": "^2.2.6",
     "@stackbit/annotations": "^0.1.1",
-    "@stackbit/cms-sanity": "^0.0.45",
+    "@stackbit/cms-sanity": "0.0.53-alpha.0",
     "configstore": "^5.0.1"
   }
 }
