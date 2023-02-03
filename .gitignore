@@ -31,4 +31,5 @@ yarn-error.log*
 /.idea
 /public/init-props
 
+.stackbit/cache
 .cache

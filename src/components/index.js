@@ -9,25 +9,25 @@ import FooterLinks from './FooterLinks';
 import Layout from './Layout';
 
 export {
-    CtaButtons,
-    Footer,
-    Header,
-    SectionContent,
-    SectionCta,
-    SectionFeatures,
-    SectionHero,
-    FooterLinks,
-    Layout
+  CtaButtons,
+  Footer,
+  Header,
+  SectionContent,
+  SectionCta,
+  SectionFeatures,
+  SectionHero,
+  FooterLinks,
+  Layout,
 };
 
 export default {
-    CtaButtons,
-    Footer,
-    Header,
-    SectionContent,
-    SectionCta,
-    SectionFeatures,
-    SectionHero,
-    FooterLinks,
-    Layout
+  CtaButtons,
+  Footer,
+  Header,
+  SectionContent,
+  SectionCta,
+  SectionFeatures,
+  SectionHero,
+  FooterLinks,
+  Layout,
 };

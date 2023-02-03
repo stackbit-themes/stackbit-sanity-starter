@@ -1,3 +1,5 @@
+const path = require('path');
+const fse = require('fs-extra');
 const sanityClient = require('@sanity/client');
 const Configstore = require('configstore');
 
@@ -40,6 +42,12 @@ async function createProject({ projectName, dataset, token }) {
     });
     console.log('created a dataset');
 
+    console.log('replacing sanity project ID in sanity.json...');
+    const sanityJsonPath = path.join(__dirname, '../studio/sanity.json');
+    const sanityJson = await fse.readJson(sanityJsonPath);
+    sanityJson.api.projectId = project.id;
+    await fse.outputJson(sanityJsonPath, sanityJson, { spaces: 2 });
+    console.log('replaced sanity project ID in sanity.json');
 }
 
 createProject({

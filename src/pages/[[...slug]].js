@@ -4,21 +4,21 @@ import { withRemoteDataUpdates } from 'sourcebit-target-next/with-remote-data-up
 import pageLayouts from '../layouts';
 
 const Page = (props) => {
-    const { page } = props;
-    const PageLayout = pageLayouts[page._type];
+  const { page } = props;
+  const PageLayout = pageLayouts[page._type];
 
-    return (<PageLayout {...props} />);
-}
+  return <PageLayout {...props} />;
+};
 
 export async function getStaticPaths() {
-    const paths = await sourcebitDataClient.getStaticPaths();
-    return { paths, fallback: false };
+  const paths = await sourcebitDataClient.getStaticPaths();
+  return { paths, fallback: false };
 }
 
 export async function getStaticProps({ params }) {
-    const pagePath = '/' + (params.slug ? params.slug.join('/') : '');
-    const props = await sourcebitDataClient.getStaticPropsForPageAtPath(pagePath);
-    return { props };
+  const pagePath = '/' + (params.slug ? params.slug.join('/') : '');
+  const props = await sourcebitDataClient.getStaticPropsForPageAtPath(pagePath);
+  return { props };
 }
 
 export default withRemoteDataUpdates(Page);
