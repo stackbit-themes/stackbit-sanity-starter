@@ -16,9 +16,9 @@
   }
 
   button,
-  input[type="submit"],
-  input[type="button"],
-  input[type="reset"],
+  input[type='submit'],
+  input[type='button'],
+  input[type='reset'],
   a.button {
     background: _palette(accent-purple);
     border-color: _palette(accent-purple);
@@ -75,8 +75,16 @@
   .block {
     &.bg-accent {
       background: _palette(accent-purple);
-      background: -webkit-linear-gradient(left,_palette(accent-purple), _palette(accent-purple-alt));
-      background: linear-gradient(to right,_palette(accent-purple), _palette(accent-purple-alt));
+      background: -webkit-linear-gradient(
+        left,
+        _palette(accent-purple),
+        _palette(accent-purple-alt)
+      );
+      background: linear-gradient(
+        to right,
+        _palette(accent-purple),
+        _palette(accent-purple-alt)
+      );
     }
   }
 }
@@ -95,9 +103,9 @@
   }
 
   button,
-  input[type="submit"],
-  input[type="button"],
-  input[type="reset"],
+  input[type='submit'],
+  input[type='button'],
+  input[type='reset'],
   a.button {
     background: _palette(accent-green);
     border-color: _palette(accent-green);
@@ -154,8 +162,16 @@
   .block {
     &.bg-accent {
       background: _palette(accent-green);
-      background: -webkit-linear-gradient(left,_palette(accent-green), _palette(accent-green-alt));
-      background: linear-gradient(to right,_palette(accent-green), _palette(accent-green-alt));
+      background: -webkit-linear-gradient(
+        left,
+        _palette(accent-green),
+        _palette(accent-green-alt)
+      );
+      background: linear-gradient(
+        to right,
+        _palette(accent-green),
+        _palette(accent-green-alt)
+      );
     }
   }
 }
@@ -174,9 +190,9 @@
   }
 
   button,
-  input[type="submit"],
-  input[type="button"],
-  input[type="reset"],
+  input[type='submit'],
+  input[type='button'],
+  input[type='reset'],
   a.button {
     background: _palette(accent-orange);
     border-color: _palette(accent-orange);
@@ -233,8 +249,16 @@
   .block {
     &.bg-accent {
       background: _palette(accent-orange);
-      background: -webkit-linear-gradient(left,_palette(accent-orange), _palette(accent-orange-alt));
-      background: linear-gradient(to right,_palette(accent-orange), _palette(accent-orange-alt));
+      background: -webkit-linear-gradient(
+        left,
+        _palette(accent-orange),
+        _palette(accent-orange-alt)
+      );
+      background: linear-gradient(
+        to right,
+        _palette(accent-orange),
+        _palette(accent-orange-alt)
+      );
     }
   }
 }

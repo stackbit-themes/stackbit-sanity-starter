@@ -33,6 +33,6 @@ export default createSchema({
     section_hero,
     site_config,
     header,
-    footer
-  ])
+    footer,
+  ]),
 });

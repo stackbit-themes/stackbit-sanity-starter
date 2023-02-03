@@ -3,31 +3,31 @@
  * ----------------------------------------------------------------------------
  */
 .post {
-    margin-bottom: 3.33333em;
+  margin-bottom: 3.33333em;
 }
 
 .post-header {
-    margin-bottom: 2.5rem;
-    text-align: center;
+  margin-bottom: 2.5rem;
+  text-align: center;
 
-    .post-title {
-        margin: 0 0 1.66667rem;
-    }
+  .post-title {
+    margin: 0 0 1.66667rem;
+  }
 }
 
 .post-subtitle {
-    border-bottom: 1px solid _palette(border);
-    font-size: 1.33333rem;
-    line-height: 1.5;
-    margin-bottom: 1.66667rem;
-    padding-bottom: 1.33333rem;
+  border-bottom: 1px solid _palette(border);
+  font-size: 1.33333rem;
+  line-height: 1.5;
+  margin-bottom: 1.66667rem;
+  padding-bottom: 1.33333rem;
 }
 
 .post-thumbnail {
-    display: block;
-    margin-bottom: 1.66667rem;
+  display: block;
+  margin-bottom: 1.66667rem;
 
-    img {
-        width: 100%;
-    }
+  img {
+    width: 100%;
+  }
 }

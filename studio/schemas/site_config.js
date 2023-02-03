@@ -9,27 +9,27 @@ export default {
       title: 'Title',
       name: 'title',
       description: 'Site title',
-      validation: Rule => Rule.required()
+      validation: (Rule) => Rule.required(),
     },
     {
       type: 'string',
       title: 'Color Palette',
       name: 'palette',
       description: 'The color palette of the site',
-      validation: Rule => Rule.required(),
+      validation: (Rule) => Rule.required(),
       options: {
-        list: ['blue', 'purple', 'green', 'orange']
-      }
+        list: ['blue', 'purple', 'green', 'orange'],
+      },
     },
     {
       type: 'header',
       title: 'Header Configuration',
-      name: 'header'
+      name: 'header',
     },
     {
       type: 'footer',
       title: 'Footer Configuration',
-      name: 'footer'
-    }
-  ]
-}
+      name: 'footer',
+    },
+  ],
+};
