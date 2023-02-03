@@ -37,12 +37,12 @@ Replace `{projectId}` with the project ID output from the previous command.
 
 ### Store Sanity Values
 
-Sign into Sanity to create an editor token, navigate to the following address (replace the `SANITY_PROJECT_ID` with your projct ID) `https://www.sanity.io/manage/personal/project/SANITY_PROJECT_ID/api#tokens`. Then create `.env` file in you repo, copy & paste the following environment variables into the file and set their values. 
+Sign into Sanity to create an editor token, navigate to the following address (replace the `SANITY_PROJECT_ID` with your project ID) `https://www.sanity.io/manage/personal/project/SANITY_PROJECT_ID/api#tokens`. Then create `.env` file in you repo, copy & paste the following environment variables into the file and set their values.
 
-```
-SANITY_PROJECT_ID=
-SANITY_DATASET=
-SANITY_TOKEN=
+```plain
+SANITY_PROJECT_ID="..."
+SANITY_DATASET="..."
+SANITY_TOKEN="..."
 ```
 
 ### Run Sanity Studio
@@ -66,7 +66,7 @@ Now you can start your Next.js development server.
 
 Install Stackbit CLI:
 
-    npm install -g @stackbit/cli    
+    npm install -g @stackbit/cli
 
 And the Stackbit development server.
 
